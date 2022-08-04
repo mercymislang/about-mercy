@@ -1,0 +1,103 @@
+/*font used*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background: url("images/minimal-bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+/*style for image of self*/
+
+img {
+  height: 250px;
+  width: 250px;
+  padding: 15px;
+  object-fit: contain;
+}
+
+/* box container style - show contrast between words and dark background*/
+body > div  {
+  background-color: whitesmoke;
+  border: 4px solid slategray;
+  text-align: center;
+  width: 600px;
+  padding: 50px;
+  margin: auto;
+}
+
+/* heading1 styling, focal point of page*/
+h1 {
+  font-family:'Montserrat Alternates';
+  font-size: 40px;
+  text-align: center;
+  color: #0A6954;
+  text-shadow: 12px 12px 14px slategray;
+}
+
+/* heading styles for h2 & h3*/
+h2,h3 {
+  font-family:'Montserrat Alternates';
+  color: #0A6954;
+  font-size: 24px;
+  text-decoration: underline;
+  text-shadow: 12px 12px 14px slategray;
+}
+
+/* centering embedded lists */
+.center {
+  text-align: center;
+  list-style-position: inside;
+}
+
+/* styles for embedded ordered/unordered list items*/
+ol, li, ul { 
+  font-family: 'Montserrat Alternates';
+  color: darkred;
+  font-size: 18px; 
+}
+
+/* horizontal ruler style */
+hr {
+  width: 10px;
+  height: 10px;
+  background: coral;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  transform: rotate(45deg);
+}
+
+/*styling for paragraphs*/
+p { 
+  font-family:'Montserrat Alternates';
+  color: maroon;
+  font-size: 18px; 
+  text-align: center;
+}
+
+/*style for links*/
+a {
+  font-family:'Montserrat Alternates';
+  color: #0A6954;
+  font-size: 16px; 
+}
+
+/* link visited style */
+a:visited{
+  color: maroon;
+}
+
+/*hovering over link style*/
+a:hover {
+  color: coral;
+}
+
+/*footer style*/
+footer {
+    font-family:'Montserrat Alternates';
+    color: maroon;
+    font-size: 14px;
+    margin: 20px;
+    padding: 20px;
+}
